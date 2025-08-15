@@ -7,7 +7,7 @@ const Hero = () => (
     <img src={heroImg} alt="Hero" className="hero-bg" />
     <div className="hero-frame497">
       <h1>We Crush Your Competitors, Goals, And Sales Records – Without The B.S.</h1>
-      <a className="hero-cta" href="#">GET FREE CONSULTATION</a>
+      <a className="hero-cta" href="/services">GET FREE CONSULTATION</a>
     </div>
   </section>
 );
