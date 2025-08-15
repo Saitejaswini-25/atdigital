@@ -1,0 +1,21 @@
+html, body, #root {
+  height: auto; 
+  min-height: 100vh; 
+  margin: 0;
+  padding: 0;
+}
+
+body, #root {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex-grow: 1;       
+  flex-shrink: 0;     
+  min-height: auto;  
+}
+
+footer {
+  margin-top: auto; 
+}
