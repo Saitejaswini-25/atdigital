@@ -13,18 +13,18 @@ const Navbar = () => {
       </div>
 
       <ul className="navbar-links desktop-links">
-        <li><a href="#">SERVICES</a></li>
-        <li><a href="#">ABOUT US</a></li>
-        <li><a href="#">CONTACT US</a></li>
-        <li><a href="#">CAREERS</a></li>
+        <li><a href="/services">SERVICES</a></li>
+        <li><a href="/services">ABOUT US</a></li>
+        <li><a href="/services">CONTACT US</a></li>
+        <li><a href="/services">CAREERS</a></li>
       </ul>
 
       <ul className={`navbar-links mobile-links ${menuOpen ? 'active' : ''}`}>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">SERVICES</a></li>
-        <li><a href="#">ABOUT US</a></li>
-        <li><a href="#">CONTACT US</a></li>
-        <li><a href="#">CAREERS</a></li>
+        <li><a href="/services">HOME</a></li>
+        <li><a href="/services">SERVICES</a></li>
+        <li><a href="/services">ABOUT US</a></li>
+        <li><a href="/services">CONTACT US</a></li>
+        <li><a href="/services">CAREERS</a></li>
       </ul>
 
       <div 
